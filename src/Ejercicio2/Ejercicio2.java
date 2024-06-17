@@ -21,7 +21,6 @@ public class Ejercicio2 {
         Estudiantes estudiantes5 = new Estudiantes("Cristophor", "Perez", "Ing_Civil", "decimo", 11, 4.8, 4.0);
 
 // Agregar los estudiantes a un ArrayList
-
         ArrayList<Estudiantes> listaEstudiantes = new ArrayList<>();
 
         listaEstudiantes.add(estudiantes1);
@@ -31,7 +30,6 @@ public class Ejercicio2 {
         listaEstudiantes.add(estudiantes5);
 
 // Imprimir los datos de los estudiantes
-
         for (Estudiantes estudiante : listaEstudiantes) {
             estudiante.imprimirDatos();
         }
