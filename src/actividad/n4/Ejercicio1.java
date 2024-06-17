@@ -20,10 +20,10 @@ public class Ejercicio1{
         
         //definicion de varibles u objetos 
         Scanner entrada = new Scanner(System.in);
-        int suma=0, resta=0, multiplicacion=0;
-        float division=0;
+        int suma=0, resta=0, multiplicacion=0 ,módulo=0, potencia=0;
+        
         int numero1, numero2 , menu;
-       
+        float division=0;
         //mostrar menu
         
         while (true){
@@ -32,10 +32,10 @@ public class Ejercicio1{
             System.out.println("2. resta ");
             System.out.println("3. multiplicacion ") ;
             System.out.println("4. division ");
-            System.out.println("5");
-            System.out.println("6");
-            System.out.println("7");
-            System.out.println("8");
+            System.out.println("5.potencia");
+            System.out.println("6.módulo");
+            System.out.println("7.división entera");
+            System.out.println("8.raíz cuadrada");
             menu = entrada.nextInt();
             if (menu <9 && menu >0){
                 System.out.println("correcto");
@@ -59,12 +59,31 @@ public class Ejercicio1{
                      System.out.println("el resultado de la multiplicacion es " + multiplicacion);
                      entrada.nextLine();
                 }
-                 else if (menu == 4){
+                else if (menu == 4){
                      division= numero1 / numero2;
                      System.out.println("el resultado de la division es " + division);
                      entrada.nextLine();
                 }
-                 
+                else if (menu == 5){
+                     potencia= numero1 / numero2;
+                     System.out.println("el resultado de la potencia es " + potencia);
+                     entrada.nextLine(); 
+                }
+                else if (menu == 6){
+                     módulo= numero1 / numero2;
+                     System.out.println("el resultado de la módulo es " + módulo );
+                     entrada.nextLine();
+                }
+                //else if (menu == 7){
+                  //   división entera= numero1 / numero2;
+                    // System.out.println("el resultado de la división entera es " + división entera );
+                    // entrada.nextLine();
+                }
+                //else if (menu == 8){
+                  //   raíz cuadrada= numero1 / numero2;
+                    // System.out.println("el resultado de la raíz cuadrada es " + raíz cuadrada );
+                    // entrada.nextLine();
+                } 
             }
             
                 System.out.println("de enter porfavor para volver al menu ");
@@ -76,6 +95,6 @@ public class Ejercicio1{
         
         //imprimir resultado si es necesario
         
-    }
+   // }
      
-}
+ //}
