@@ -6,25 +6,29 @@ package Ejercicio3;
 
 /**
  *
- * 
+ *
  * @author USR-79M2
  */
 public class Ejercicio3 {
 
-    import random
+    Definición de la clase Hotel para gestionar habitaciones, usuarios y reservas
 
-    # Definición de la clase Hotel para gestionar habitaciones, usuarios y reservas
+    private static class random {
 
-    class Hotel 
+        public random() {
+        }
+    }
 
-        :
-    def __init__(self):
+    //class Hotel 
+    def  init (self) :
         self.habitaciones = []
         self.usuarios = []
         self.reservas = []
 
     def agregar_habitacion(self, numero, tipo, precio):
-        habitacion = {"numero": numero , "tipo": tipo , "precio": precio
+        habitacion = {
+        ("numero"= numero , "tipo"= tipo , "precio"= precio)
+                
     }
 
     self.habitaciones.append (habitacion) print(f"Habitación {numero} agregada exitosamente.")
@@ -36,16 +40,18 @@ public class Ejercicio3 {
             for hab in self.habitaciones:
                 print(f"Número: {hab['numero']}, Tipo: {hab['tipo']}, Precio: {hab['precio']}")
 
-    def agregar_usuario(self, nombre, apellido, dni):
-        usuario = {"nombre": nombre, "apellido": apellido, "dni": dni
+    def agregar usuario(self, nombre, apellido, dni);
+        usuario = {
+        ("nombre": nombre, "apellido": apellido, "dni": dni);
+                
     }
 
-    self.usuarios.append (usuario) print(f"Usuario {nombre} {apellido} agregado exitosamente.")
+        self.usuarios.append(usuario)print("Usuario {nombre} {apellido} agregado exitosamente.");
 
-    def listar_usuarios(self):
-        if not self.usuarios:
+        def listar_usuarios(self):
+            if not self.usuarios:
             print("No hay usuarios registrados.")
-        else:
+            else:
             for usr in self.usuarios:
                 print(f"Nombre: {usr['nombre']} {usr['apellido']}, DNI: {usr['dni']}")
 
@@ -58,6 +64,7 @@ public class Ejercicio3 {
     }
 
     self.reservas.append (reserva)
+
 
 self.imprimir_ticket(reserva)
         else:

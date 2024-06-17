@@ -17,10 +17,8 @@ public class Reserva {
     hotel = Hotel()
     while True:
         mostrar_menu()
-        try:
-            opcion = int (input
-
-    ("Seleccione una opción: "))
+        try opcion = int (input("Seleccione una opción: "))
+                    
         except ValueError:
             print("Por favor, ingrese una opción válida.")
             continue
@@ -28,10 +26,8 @@ public class Reserva {
         if opcion == 1:
             numero = input("Ingrese el número de la habitación: ")
             tipo = input("Ingrese el tipo de habitación (sencilla, doble, suite, etc.): ")
-            try:
-                precio = float (input
-
-("Ingrese el precio de la habitación: "))
+                    
+            try precio = float (input("Ingrese el precio de la habitación: "))
                 hotel.agregar_habitacion(numero, tipo, precio)
             except ValueError:
                 print("Por favor, ingrese un precio válido.")
