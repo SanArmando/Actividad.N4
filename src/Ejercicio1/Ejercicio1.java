@@ -1,5 +1,5 @@
 
-package actividad.n4;
+package Ejercicio1;
 import java.util.Scanner;
 
 /**
@@ -83,18 +83,10 @@ public class Ejercicio1{
                   //   raíz cuadrada= numero1 / numero2;
                     // System.out.println("el resultado de la raíz cuadrada es " + raíz cuadrada );
                     // entrada.nextLine();
+                    System.out.println("de enter porfavor para volver al menu ");
                 } 
-            }
             
-                //System.out.println("de enter porfavor para volver al menu ");
-                //entrada.nextLine();
-            
-        }
-        // definicion de logica del ejercicio
-        
-        
-        //imprimir resultado si es necesario
-        
-   // }
-     
- //}
+    }
+                    
+         
+}
