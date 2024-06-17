@@ -9,7 +9,7 @@ import java.util.Scanner;
  * permite gestionar el ingreso de monedas, el usuario en todo momento puede
  * consultar la cantidad de dinero que posee y la cantidad de transacciones de
  * ingreso y egreso de dinero y cantidad de dinero en cada transacción.
- *
+ 
  */
 public class Ejercicio6 {
 

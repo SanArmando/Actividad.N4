@@ -4,6 +4,7 @@ obtener un reporte global de los promedios de sus estudiantes
 y que muestre el promedio de cada uno, nombres, apellidos,
 carrera y semestre. Se debe imprimir el promedio global y cada
 uno de los datos de los estudiantes.
+
  */
 package ejercicio2;
 

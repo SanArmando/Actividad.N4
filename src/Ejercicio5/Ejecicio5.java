@@ -8,6 +8,7 @@ import java.util.Scanner;
  * productos que ha comprado: precio, cantidad, descripción. También el total a
  * pagar y calculo de impuestos, adicional se debe tener el nombre, apellidos y
  * documento del cliente.
+ * 
  */
 public class Ejecicio5 {
 

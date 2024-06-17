@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  *
+ * 
  * @author USR-79M2
  */
 public class Ejercicio1{
