@@ -86,8 +86,8 @@ public class Ejercicio1{
                 } 
             }
             
-                System.out.println("de enter porfavor para volver al menu ");
-                entrada.nextLine();
+                //System.out.println("de enter porfavor para volver al menu ");
+                //entrada.nextLine();
             
         }
         // definicion de logica del ejercicio
